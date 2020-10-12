@@ -18,3 +18,17 @@ df = pd.DataFrame({'input': [1,2,3,4,5,6],
 })
 
 out1 = df['output'][1]
+
+out1
+
+df
+
+# + language="html"
+# <p>
+# <h1>fsadfdasf</h1>
+# </p>
+# -
+dfdf
+
+
+
