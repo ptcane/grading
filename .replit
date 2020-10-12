@@ -1,2 +1,2 @@
 language = "bash"
-run = "pytest"
+run = "jupytext --sync notebooks/*.ipynb && pytest"

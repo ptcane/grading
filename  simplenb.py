@@ -1,11 +1,11 @@
 # ---
 # jupyter:
 #   jupytext:
-#     formats: ipynb,py:light
+#     formats: notebooks//ipynb, /py:percent
 #     text_representation:
 #       extension: .py
-#       format_name: light
-#       format_version: '1.5'
+#       format_name: percent
+#       format_version: '1.3'
 #       jupytext_version: 1.6.0
 #   kernelspec:
 #     display_name: Python 3
@@ -13,17 +13,15 @@
 #     name: python3
 # ---
 
-# ## My first workbook
+# %%
+x = 44
 
-x = 6
-y = 7
-z = x + y
+# %%
+z = 23
+a = 3
 
-z
-
-for n in [0,1,2,3]:
-    print(n * 2)
-
-# Test the markdown
+# %%
+print(x + z + a)
 
 
+# %%
