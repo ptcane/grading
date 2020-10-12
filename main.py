@@ -1,4 +1,4 @@
-## Week 2 assignment
+# # Week 2 assignment
 # Fix the functions so that they work as expected
 # ---------------------------------------------------
 
@@ -17,4 +17,4 @@ df = pd.DataFrame({'input': [1,2,3,4,5,6],
                    'output': [2,4,6,8,10,12]
 })
 
-out1 = df['output'][2]
+out1 = df['output'][1]
