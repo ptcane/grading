@@ -1,2 +1,0 @@
-#language = "bash"
-#run = "git pull origin master && jupytext --sync notebooks/*.ipynb && pytest && git commit #--allow-empty -m 'update'  && git push origin master"
