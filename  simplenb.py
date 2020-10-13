@@ -13,7 +13,7 @@
 #     name: python3
 # ---
 
-# %% [markdown] id="view-in-github" colab_type="text"
+# %% [markdown] colab_type="text" id="view-in-github"
 # <a href="https://colab.research.google.com/github/ptcane/grading/blob/master/notebooks/simplenb.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 # %% id="JkRiEKN9ssXc"
@@ -34,7 +34,7 @@ import pandas as pd
 # %% id="PCsNp2TFs8a8"
 df = pd.DataFrame({"member":['dave', 'alan'], 'age': [23, 65]})
 
-# %% id="TQRzViQ0t0t8" outputId="d890e50e-74c3-4d11-84c0-bb0bdddb7555" colab={"base_uri": "https://localhost:8080/", "height": 111}
+# %% colab={"base_uri": "https://localhost:8080/", "height": 111} id="TQRzViQ0t0t8" outputId="d890e50e-74c3-4d11-84c0-bb0bdddb7555"
 df
 
 # %% id="qPqCr2P3t6J2"
