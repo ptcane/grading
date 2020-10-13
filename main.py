@@ -3,7 +3,7 @@ app = Flask(__name__, static_folder='')
 
 @app.route('/')
 def index():
-  return send_from_directory(app.root_path, 'index.html')
+  return send_from_directory(app.root_path, 'site/index.html')
 
 @app.route('/<path:path>')
 def address():
