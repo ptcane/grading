@@ -1,4 +1,4 @@
-import subfile
+from scripts import subfile
 
 def test_add():
     assert subfile.add(1, 2) == 3

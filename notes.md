@@ -3,4 +3,9 @@ Open the command shell by pressing Cmd+Shift+S on MacOS or Ctrl+Shift+S on other
 
 
 
-jupyter nbconvert slides/*.ipynb --to slides -SlidesExporter.reveal_theme=white
+jupyter nbconvert slides/notebook.ipynb --to slides --SlidesExporter.reveal_theme=white --output slides.html
+
+mkdocs serve -a 0.0.0.0:8080
+
+
+jupytext --sync notebooks/*.ipynb

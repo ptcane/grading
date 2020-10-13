@@ -1,2 +1,2 @@
 language = "bash"
-run = "git pull origin master && jupytext --sync notebooks/*.ipynb && pytest"
+run = "jupytext --sync notebooks/*.ipynb && python main.py"
