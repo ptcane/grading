@@ -1,2 +1,2 @@
 language = "bash"
-run = "jupytext --sync notebooks/*.ipynb && python main.py"
+run = "jupytext --sync notebooks/*.ipynb && jupyter nbconvert slides/session.ipynb --to slides --SlidesExporter.reveal_theme=white && python main.py"
